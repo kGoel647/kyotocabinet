@@ -16,9 +16,9 @@
 #ifndef _KCDBEXT_H                       // duplication check
 #define _KCDBEXT_H
 
-#include <kccommon.h>
-#include <kcutil.h>
-#include <kcthread.h>
+#include "kccommon.h"
+#include "kcutil.h"
+#include "kcthread.h"
 #include <kcfile.h>
 #include <kccompress.h>
 #include <kccompare.h>
@@ -1278,7 +1278,7 @@ class IndexDB {
     if (omode_ == 0) {
       set_error(_KCCODELINE_, BasicDB::Error::INVALID, "not opened");
       *sp = 0;
-      return false;
+      return NULL;
     }
     if (!cache_) return db_.get(kbuf, ksiz, sp);
     size_t dvsiz = 0;

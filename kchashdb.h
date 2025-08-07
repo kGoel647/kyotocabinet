@@ -16,9 +16,9 @@
 #ifndef _KCHASHDB_H                      // duplication check
 #define _KCHASHDB_H
 
-#include <kccommon.h>
-#include <kcutil.h>
-#include <kcthread.h>
+#include "kccommon.h"
+#include "kcutil.h"
+#include "kcthread.h"
 #include <kcfile.h>
 #include <kccompress.h>
 #include <kccompare.h>

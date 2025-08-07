@@ -16,9 +16,9 @@
 #ifndef _KCPROTODB_H                     // duplication check
 #define _KCPROTODB_H
 
-#include <kccommon.h>
-#include <kcutil.h>
-#include <kcthread.h>
+#include "kccommon.h"
+#include "kcutil.h"
+#include "kcthread.h"
 #include <kcfile.h>
 #include <kccompress.h>
 #include <kccompare.h>
